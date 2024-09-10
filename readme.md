@@ -13,7 +13,7 @@
 
 1. **Clone the repository:**
 
-   `git clone https://github.com/yourusername/express-dev-proxy.git`
+   `git clone https://github.com/stewebb/express-dev-proxy.git`
 
 2. **Navigate to the project directory:**
 
@@ -32,8 +32,10 @@ The server configuration can be customized using environment variables. Create a
 - `FRONTEND_TARGET` - The target URL for frontend requests. Default is `http://localhost:3000`.
 
 Example `.env` file:
+
 ```
-PORT=9000 API_TARGET=http://localhost:6000/ FRONTEND_TARGET=http://localhost:4000
+PORT=9000 
+API_TARGET=http://localhost:6000/ FRONTEND_TARGET=http://localhost:4000
 ```
 
 ## Usage
